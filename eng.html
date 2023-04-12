@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scopic_Labs social links</title>
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <img src="./img/logo.svg" alt="Logo Scopic_Labs">
+
+
+        <!-- Dit werkt -->
+
+        <!-- <div>
+            <a href="./fr.html">
+                <img src="./img/language.svg" alt="">
+                <p>Français</p>
+            </a>
+        </div> -->
+
+        <!-- Dit werkt nog niet -->
+
+        <div>
+            <nav>
+                <div>
+                    <a onclick="myFunction()">
+                        <img src="./img/language.svg" alt="">
+                        <p>English</p>
+                        <img src="./img/chevron.svg" alt="">
+                    </a>
+                </div>
+
+                <ul id="myDIV">
+                    <li>
+                        <a href="index.html">Français</a>
+                    </li>
+                    <li>
+                        <a href="nl.html">Nederlands</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <section>
+            <h1>Scopic_Labs, virtual reality training and research</h1>
+            <div>
+                <a href="https://www.linkedin.com/company/scopic-labs/" target="_blank" id="linkedin">
+                    <img src="./img/linkedin-icon.svg" alt="">
+                    <p>Never miss a thing</p>
+                </a>
+                <a href="mailto:justin@scopiclabs.com">
+                    <img src="./img/email.svg" alt="">
+                </a>
+            </div>
+
+            <a href="mailto:justin@scopiclabs.com">
+                <p>Request a demo</p>
+                <img src="./img/arrow-right-white.svg" alt="">
+            </a>
+            <a href="https://www.scopiclabs.com/" target=" www.scopiclabs.com">
+                <p>scopiclabs.com</p>
+                <img src="./img/arrow-right-white.svg" alt="">
+            </a>
+        </section>
+
+        <section>
+            <h1>Dive into our projects</h1>
+            <a href="https://vr-surveillance.com/" target="_blank">
+                <p>Mitigating ethnic profiling</p>
+                <img src="./img/arrow-right-white.svg" alt="">
+            </a>
+
+            <!-- website nog invullen -->
+
+            <a href="www.prioritairrijden.be" target="_blank">
+                <p>High-speed police driving</p>
+                <img src="./img/arrow-right-white.svg" alt="">
+            </a>
+        </section>
+
+        <section>
+            <h1>See what it's all about?</h1>
+            <div class="container">
+                <video src="./mp4/showreel.mov" class="responsive-iframe" muted autoplay loop controls></video>
+                <!-- <iframe src="https://player.vimeo.com/video/382587655?h=fdcdd84063"
+                    class="responsive-iframe" frameborder="0" allowautoplay allowmuted allowfullscreen></iframe> -->
+            </div>
+
+        </section>
+
+        <footer>
+            <p>Scopic_Labs</p>
+            <br>
+            <a href="mailto:justin@scopiclabs.com">info@scopiclabs.com</a>
+            <p>+31 6 2434 3765</p>
+            <p>Amsterdam</p>
+        </footer>
+    </main>
+
+    <script>
+        function myFunction() {
+            var element = document.getElementById("myDIV");
+            element.classList.toggle("displaynone");
+        }
+    </script>
+</body>
+
+</html>
